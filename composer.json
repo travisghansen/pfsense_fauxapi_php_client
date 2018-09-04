@@ -1,0 +1,19 @@
+{
+    "name": "travisghansen/pfsense_fauxapi_php_client",
+    "type": "library",
+    "description": "support pfSense API interaction with pfsense_fauxapi",
+    "license": "Apache-2.0",
+    "keywords": ["pfsense", "api", "client", "firewall", "php"],
+    "homepage": "https://github.com/travisghansen/pfsense_fauxapi_php_client/",
+    "authors": [
+        {
+            "name" : "Travis Glenn Hansen"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {"PfSenseFauxApi\\": "src/"}
+    }
+}
